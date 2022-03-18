@@ -97,9 +97,10 @@ This package can be installed with:
 
 ```
 git clone https://github.com/Toby4213/echoip.git
-cd echoip
-make
-make install
+cd echoip/
+cd cmd/echoip/; go build
+cp cmd/echoip/echoip .
+./echoip -H X-Forwarded-For -l 0.0.0.0:8081
 ```
 
 For more information on building a Go project, see the [official Go
