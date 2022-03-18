@@ -95,7 +95,12 @@ between IPv4 and IPv6 lookup.
 Compiling requires the [Golang compiler](https://golang.org/) to be installed.
 This package can be installed with:
 
-`go get github.com/Toby4213/echoip/...@latest`
+```
+git clone https://github.com/Toby4213/echoip.git
+cd echoip
+make
+make install
+```
 
 For more information on building a Go project, see the [official Go
 documentation](https://golang.org/doc/code.html).
